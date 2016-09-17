@@ -1,0 +1,60 @@
+/*##################################################
+# Global Styles
+####################################################*/
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+}
+
+/*##################################################
+# Reuseable components
+####################################################*/
+.side {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*##################################################
+# Left Container Styles
+####################################################*/
+.side-left {
+    background-color: #1560FB;
+    float: left;
+    position: fixed;
+    color: #eee;
+}
+
+.intro {
+    margin: 30px;
+}
+
+/*##################################################
+# Right Container Styles
+####################################################*/
+.side-right {
+    margin-left: 50%;
+}
+
+.block {
+    margin: 20px 20px 60px 20px;
+}
+
+.block .heading {
+    width: 15%;
+    float: left;
+    margin: 0;
+}
+
+.block .body {
+    margin-left: 15%;
+    padding-left: 45px;
+    text-align: left;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+}

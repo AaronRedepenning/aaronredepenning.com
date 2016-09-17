@@ -1,0 +1,2 @@
+# Don't include bower packages
+/src/vendor/*

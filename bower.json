@@ -1,0 +1,22 @@
+{
+  "name": "my-website",
+  "description": "A personal website to showcase my experience.",
+  "main": "index.html",
+  "authors": [
+    "Aaron Redepenning"
+  ],
+  "license": "ISC",
+  "homepage": "www.aaronredepenning.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.2.0"
+  }
+}
